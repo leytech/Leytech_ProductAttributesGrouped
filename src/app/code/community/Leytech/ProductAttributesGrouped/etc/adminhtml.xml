@@ -16,7 +16,7 @@
                         <children>
                             <config>
                                 <children>
-                                    <leytech_product_attributes_grouped translate="title" module="leytech_product_description">
+                                    <leytech_product_attributes_grouped translate="title" module="leytech_product_attributes_grouped">
                                         <title>Leytech Grouped Product Attributes</title>
                                         <sort_order>12070</sort_order>
                                     </leytech_product_attributes_grouped>
