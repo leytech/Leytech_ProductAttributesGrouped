@@ -1,0 +1,5 @@
+src/app/code/community/Leytech/ProductAttributesGrouped                                app/code/community/Leytech/ProductAttributesGrouped
+src/app/design/frontend/base/default/layout/leytech/product_attributes_grouped.xml     app/design/frontend/base/default/layout/leytech/product_attributes_grouped.xml
+src/app/design/frontend/base/default/template/leytech/product_attributes_grouped       app/design/frontend/base/default/template/leytech/product_attributes_grouped
+src/app/etc/modules/Leytech_ProductAttributesGrouped.xml                               app/etc/modules/Leytech_ProductAttributesGrouped.xml
+src/skin/frontend/base/default/leytech/product_attributes_grouped                      skin/frontend/base/default/leytech/product_attributes_grouped
