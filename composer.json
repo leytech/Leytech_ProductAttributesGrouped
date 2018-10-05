@@ -1,0 +1,13 @@
+{
+  "name": "leytech/leytech_product_attributes_grouped",
+  "type": "magento-module",
+  "description": "Module to to display product attributes in their respective attribute groups.",
+  "homepage": "https://github.com/leytech/Leytech_ProductAttributesGrouped",
+  "require": {
+    "php": ">=5.4.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra":{
+    "magento-root-dir": "src/"
+  }
+}
