@@ -1,0 +1,33 @@
+<?php
+/**
+ * @package    Leytech_ProductAttributesGrouped
+ * @author     Chris Nolan (chris@leytech.co.uk)
+ * @copyright  Copyright (c) 2018 Leytech
+ * @license    https://opensource.org/licenses/MIT  The MIT License  (MIT)
+ */
+?>
+<?php
+$_helper = $this->helper('catalog/output');
+$_product = $this->getProduct();
+?>
+<?php if($_additional = $this->getAdditionalData(array(), false)): ?>
+    <h2><?php echo $this->__('Additional Information') ?></h2>
+    <table class="data-table lt-prod-attr" id="product-attribute-specs-table">
+        <col width="25%" />
+        <col />
+        <tbody>
+        <?php foreach ($_additional as $_group): ?>
+            <tr>
+                <th class="group-title" colspan="2"><?php echo $this->escapeHtml($this->__($_group['title'])) ?></th>
+            </tr>
+            <?php foreach ($_group['items'] as $_data): ?>
+                <tr>
+                    <th class="label"><?php echo $this->escapeHtml($this->__($_data['label'])) ?></th>
+                    <td class="data"><?php echo $_helper->productAttribute($_product, $_data['value'], $_data['code']) ?></td>
+                </tr>
+            <?php endforeach; ?>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+    <script type="text/javascript">decorateTable('product-attribute-specs-table')</script>
+<?php endif;?>

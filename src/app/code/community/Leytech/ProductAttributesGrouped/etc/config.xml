@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package    Leytech_ProductAttributesGrouped
+ * @author     Chris Nolan (chris@leytech.co.uk)
+ * @copyright  Copyright (c) 2018 Leytech
+ * @license    https://opensource.org/licenses/MIT  The MIT License  (MIT)
+ */
+-->
+<config>
+    <modules>
+        <Leytech_ProductAttributesGrouped>
+            <version>1.0.0</version>
+        </Leytech_ProductAttributesGrouped>
+    </modules>
+    <global>
+        <blocks>
+            <leytech_product_attributes_grouped>
+                <class>Leytech_ProductAttributesGrouped_Block</class>
+            </leytech_product_attributes_grouped>
+        </blocks>
+        <helpers>
+            <leytech_product_attributes_grouped>
+                <class>Leytech_ProductAttributesGrouped_Helper</class>
+            </leytech_product_attributes_grouped>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <leytech_product_attributes_grouped>
+                    <file>leytech/product_attributes_grouped.xml</file>
+                </leytech_product_attributes_grouped>
+            </updates>
+        </layout>
+    </frontend>
+</config>
